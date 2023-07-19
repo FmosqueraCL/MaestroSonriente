@@ -1,0 +1,19 @@
+import ProfileScreen from './screens/ProfileScreen';
+import OptionScreen from './screens/OptionScreen';
+import CultivationScreen from './screens/CultivationScreen';
+import RelicScreen from './screens/RelicScreen';
+import GardenScreen from './screens/GardenScreen';
+import WardrobeScreen from './screens/WardrobeScreen';
+import MissionScreen from './screens/MissionScreen';
+import DateScreen from './screens/DateScreen';
+
+
+
+        <Route path="/profile" component={ProfileScreen} />
+        <Route path="/options" component={OptionScreen} />
+        <Route path="/cultivation" component={CultivationScreen} />
+        <Route path="/relic" component={RelicScreen} />
+        <Route path="/garden" component={GardenScreen} />
+        <Route path="/wardrobe" component={WardrobeScreen} />
+        <Route path="/mission" component={MissionScreen} />
+        <Route path="/date" component={DateScreen} />
